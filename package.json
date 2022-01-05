@@ -5,7 +5,8 @@
   "description": "Develop extensions using microservices",
   "main": "app.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "start": "node app.js"
   },
   "keywords": [
     "Molecular.JS",
