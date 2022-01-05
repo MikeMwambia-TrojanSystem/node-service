@@ -12,7 +12,7 @@ const app = express(),
 app.use(loadDB);
 
 //Start molecular service
-app.use(mathService)
+mathService;
 
 //authenticate each request 
 //will set 'request.user'
@@ -36,7 +36,7 @@ api.post("api/account",(req,res)=>res.json({message:"created"}));
 
 //Health of server
 
-api.post("/health",(req,res)=>res.json({message:"Server awake"}));
+api.get("/health",(req,res)=>res.json({message:"Server awake"}));
 
 
 //account update & delete (PATCH & DELETE) are only available to account owner
