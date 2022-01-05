@@ -12,5 +12,8 @@
     "JS"
   ],
   "author": "mikemwambia",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^27.4.6"
+  }
 }
