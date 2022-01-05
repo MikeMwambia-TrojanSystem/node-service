@@ -1,0 +1,16 @@
+{
+  "name": "nodeservice",
+  "version": "1.0.0",
+  "description": "Develop extensions using microservices",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Molecular.JS",
+    "Node",
+    "JS"
+  ],
+  "author": "mikemwambia",
+  "license": "ISC"
+}
